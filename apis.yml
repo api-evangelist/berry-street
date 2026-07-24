@@ -1,8 +1,13 @@
 aid: berry-street
 name: Berry Street
-description: 'Berry Street is a company surfaced as a portfolio company of northzone and added to the
-  API Evangelist network as a stub for enrichment. Sector: healthcare; ai. This profile is a lead awaiting
-  the enrichment pipeline.'
+description: 'Berry Street is a telehealth platform that connects patients with board-certified,
+  registered dietitians for virtual, insurance-covered nutrition therapy. Through 1-on-1 video
+  sessions, patients receive medical nutrition therapy for 30+ conditions including eating
+  disorders, diabetes, PCOS, IBS, gut health, heart disease, and prenatal and pediatric
+  nutrition. Berry Street accepts 1,250+ insurance plans, matches patients to dietitians based
+  on their needs, and offers an enterprise/employer offering for organizations. Backed by
+  Northzone. This API Evangelist profile currently exposes no public developer or API surface;
+  it is a company identity record enriched from Berry Street''s public web presence.'
 url: https://raw.githubusercontent.com/api-evangelist/berry-street/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -10,12 +15,30 @@ x-backed-by:
 - northzone
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
+image: https://framerusercontent.com/assets/UmbD9dceSXtVGZev7BzQjRwuydU.png
 tags:
 - Company
-- Healthcare; Ai
+- Healthcare
+- Nutrition
+- Telehealth
+- Dietitian
+- Medical Nutrition Therapy
+- Insurance
+- Digital Health
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -25,3 +48,28 @@ maintainers:
 common:
 - type: Website
   url: https://www.berrystreet.co
+- type: About
+  url: https://www.berrystreet.co/about
+- type: Blog
+  url: https://www.berrystreet.co/blog
+- type: Support
+  url: https://www.berrystreet.co/contact
+- type: HelpCenter
+  url: https://www.berrystreet.co/faq
+- type: SignUp
+  url: https://www.berrystreet.co/book
+- type: Login
+  url: https://app.berrystreet.co
+- type: Careers
+  url: https://apply.workable.com/berry-street/
+- type: TermsOfService
+  url: https://www.berrystreet.co/terms-and-conditions
+- type: PrivacyPolicy
+  url: https://www.berrystreet.co/privacy
+- type: DomainSecurity
+  url: security/berry-street-domain-security.yml
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
